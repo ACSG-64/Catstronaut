@@ -1,0 +1,17 @@
+{
+  "name": "catstronaut",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=client --workspace=server"
+  },
+  "keywords": [
+    "graphql", "apollo"
+  ],
+  "author": "ACSG-64",
+  "license": "ISC"
+}
